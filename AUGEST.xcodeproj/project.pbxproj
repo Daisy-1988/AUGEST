@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A390C21824E18BA000C3717A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390C21724E18BA000C3717A /* AppDelegate.swift */; };
+		A390C21A24E18BA000C3717A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390C21924E18BA000C3717A /* SceneDelegate.swift */; };
+		A390C21C24E18BA000C3717A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390C21B24E18BA000C3717A /* ViewController.swift */; };
+		A390C21F24E18BA000C3717A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A390C21D24E18BA000C3717A /* Main.storyboard */; };
+		A390C22124E18BA300C3717A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A390C22024E18BA300C3717A /* Assets.xcassets */; };
+		A390C22424E18BA300C3717A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A390C22224E18BA300C3717A /* LaunchScreen.storyboard */; };
+		A390C22F24E18BA400C3717A /* AUGESTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390C22E24E18BA400C3717A /* AUGESTTests.swift */; };
+		A390C23A24E18BA400C3717A /* AUGESTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390C23924E18BA400C3717A /* AUGESTUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A390C22B24E18BA400C3717A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A390C20C24E18BA000C3717A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A390C21324E18BA000C3717A;
+			remoteInfo = AUGEST;
+		};
+		A390C23624E18BA400C3717A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A390C20C24E18BA000C3717A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A390C21324E18BA000C3717A;
+			remoteInfo = AUGEST;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A390C21424E18BA000C3717A /* AUGEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUGEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A390C21724E18BA000C3717A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A390C21924E18BA000C3717A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A390C21B24E18BA000C3717A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A390C21E24E18BA000C3717A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A390C22024E18BA300C3717A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A390C22324E18BA300C3717A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A390C22524E18BA300C3717A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A390C22A24E18BA400C3717A /* AUGESTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUGESTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A390C22E24E18BA400C3717A /* AUGESTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUGESTTests.swift; sourceTree = "<group>"; };
+		A390C23024E18BA400C3717A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A390C23524E18BA400C3717A /* AUGESTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUGESTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A390C23924E18BA400C3717A /* AUGESTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUGESTUITests.swift; sourceTree = "<group>"; };
+		A390C23B24E18BA400C3717A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A390C21124E18BA000C3717A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A390C22724E18BA400C3717A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A390C23224E18BA400C3717A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A390C20B24E18BA000C3717A = {
+			isa = PBXGroup;
+			children = (
+				A390C21624E18BA000C3717A /* AUGEST */,
+				A390C22D24E18BA400C3717A /* AUGESTTests */,
+				A390C23824E18BA400C3717A /* AUGESTUITests */,
+				A390C21524E18BA000C3717A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A390C21524E18BA000C3717A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A390C21424E18BA000C3717A /* AUGEST.app */,
+				A390C22A24E18BA400C3717A /* AUGESTTests.xctest */,
+				A390C23524E18BA400C3717A /* AUGESTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A390C21624E18BA000C3717A /* AUGEST */ = {
+			isa = PBXGroup;
+			children = (
+				A390C21724E18BA000C3717A /* AppDelegate.swift */,
+				A390C21924E18BA000C3717A /* SceneDelegate.swift */,
+				A390C21B24E18BA000C3717A /* ViewController.swift */,
+				A390C21D24E18BA000C3717A /* Main.storyboard */,
+				A390C22024E18BA300C3717A /* Assets.xcassets */,
+				A390C22224E18BA300C3717A /* LaunchScreen.storyboard */,
+				A390C22524E18BA300C3717A /* Info.plist */,
+			);
+			path = AUGEST;
+			sourceTree = "<group>";
+		};
+		A390C22D24E18BA400C3717A /* AUGESTTests */ = {
+			isa = PBXGroup;
+			children = (
+				A390C22E24E18BA400C3717A /* AUGESTTests.swift */,
+				A390C23024E18BA400C3717A /* Info.plist */,
+			);
+			path = AUGESTTests;
+			sourceTree = "<group>";
+		};
+		A390C23824E18BA400C3717A /* AUGESTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A390C23924E18BA400C3717A /* AUGESTUITests.swift */,
+				A390C23B24E18BA400C3717A /* Info.plist */,
+			);
+			path = AUGESTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A390C21324E18BA000C3717A /* AUGEST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A390C23E24E18BA400C3717A /* Build configuration list for PBXNativeTarget "AUGEST" */;
+			buildPhases = (
+				A390C21024E18BA000C3717A /* Sources */,
+				A390C21124E18BA000C3717A /* Frameworks */,
+				A390C21224E18BA000C3717A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUGEST;
+			productName = AUGEST;
+			productReference = A390C21424E18BA000C3717A /* AUGEST.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A390C22924E18BA400C3717A /* AUGESTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A390C24124E18BA400C3717A /* Build configuration list for PBXNativeTarget "AUGESTTests" */;
+			buildPhases = (
+				A390C22624E18BA400C3717A /* Sources */,
+				A390C22724E18BA400C3717A /* Frameworks */,
+				A390C22824E18BA400C3717A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A390C22C24E18BA400C3717A /* PBXTargetDependency */,
+			);
+			name = AUGESTTests;
+			productName = AUGESTTests;
+			productReference = A390C22A24E18BA400C3717A /* AUGESTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A390C23424E18BA400C3717A /* AUGESTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A390C24424E18BA400C3717A /* Build configuration list for PBXNativeTarget "AUGESTUITests" */;
+			buildPhases = (
+				A390C23124E18BA400C3717A /* Sources */,
+				A390C23224E18BA400C3717A /* Frameworks */,
+				A390C23324E18BA400C3717A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A390C23724E18BA400C3717A /* PBXTargetDependency */,
+			);
+			name = AUGESTUITests;
+			productName = AUGESTUITests;
+			productReference = A390C23524E18BA400C3717A /* AUGESTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A390C20C24E18BA000C3717A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A390C21324E18BA000C3717A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					A390C22924E18BA400C3717A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = A390C21324E18BA000C3717A;
+					};
+					A390C23424E18BA400C3717A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = A390C21324E18BA000C3717A;
+					};
+				};
+			};
+			buildConfigurationList = A390C20F24E18BA000C3717A /* Build configuration list for PBXProject "AUGEST" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A390C20B24E18BA000C3717A;
+			productRefGroup = A390C21524E18BA000C3717A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A390C21324E18BA000C3717A /* AUGEST */,
+				A390C22924E18BA400C3717A /* AUGESTTests */,
+				A390C23424E18BA400C3717A /* AUGESTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A390C21224E18BA000C3717A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A390C22424E18BA300C3717A /* LaunchScreen.storyboard in Resources */,
+				A390C22124E18BA300C3717A /* Assets.xcassets in Resources */,
+				A390C21F24E18BA000C3717A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A390C22824E18BA400C3717A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A390C23324E18BA400C3717A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A390C21024E18BA000C3717A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A390C21C24E18BA000C3717A /* ViewController.swift in Sources */,
+				A390C21824E18BA000C3717A /* AppDelegate.swift in Sources */,
+				A390C21A24E18BA000C3717A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A390C22624E18BA400C3717A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A390C22F24E18BA400C3717A /* AUGESTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A390C23124E18BA400C3717A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A390C23A24E18BA400C3717A /* AUGESTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A390C22C24E18BA400C3717A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A390C21324E18BA000C3717A /* AUGEST */;
+			targetProxy = A390C22B24E18BA400C3717A /* PBXContainerItemProxy */;
+		};
+		A390C23724E18BA400C3717A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A390C21324E18BA000C3717A /* AUGEST */;
+			targetProxy = A390C23624E18BA400C3717A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A390C21D24E18BA000C3717A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A390C21E24E18BA000C3717A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A390C22224E18BA300C3717A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A390C22324E18BA300C3717A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A390C23C24E18BA400C3717A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A390C23D24E18BA400C3717A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A390C23F24E18BA400C3717A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AUGEST/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daisy.AUGEST;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A390C24024E18BA400C3717A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AUGEST/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daisy.AUGEST;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A390C24224E18BA400C3717A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AUGESTTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daisy.AUGESTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AUGEST.app/AUGEST";
+			};
+			name = Debug;
+		};
+		A390C24324E18BA400C3717A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AUGESTTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daisy.AUGESTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AUGEST.app/AUGEST";
+			};
+			name = Release;
+		};
+		A390C24524E18BA400C3717A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AUGESTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daisy.AUGESTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AUGEST;
+			};
+			name = Debug;
+		};
+		A390C24624E18BA400C3717A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AUGESTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daisy.AUGESTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AUGEST;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A390C20F24E18BA000C3717A /* Build configuration list for PBXProject "AUGEST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A390C23C24E18BA400C3717A /* Debug */,
+				A390C23D24E18BA400C3717A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A390C23E24E18BA400C3717A /* Build configuration list for PBXNativeTarget "AUGEST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A390C23F24E18BA400C3717A /* Debug */,
+				A390C24024E18BA400C3717A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A390C24124E18BA400C3717A /* Build configuration list for PBXNativeTarget "AUGESTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A390C24224E18BA400C3717A /* Debug */,
+				A390C24324E18BA400C3717A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A390C24424E18BA400C3717A /* Build configuration list for PBXNativeTarget "AUGESTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A390C24524E18BA400C3717A /* Debug */,
+				A390C24624E18BA400C3717A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A390C20C24E18BA000C3717A /* Project object */;
+}
